@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct ScavengerHuntView: View {
+struct ContentView: View {
     
     let clues = [
         "Find the red bench in the city's largest park.",
@@ -147,8 +147,8 @@ struct ImageSelectionView: View {
     }
 }
 
-struct ScavengerHuntView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ScavengerHuntView()
+        ContentView()
     }
 }

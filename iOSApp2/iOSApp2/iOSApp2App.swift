@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSApp2App: App {
     var body: some Scene {
         WindowGroup {
-            ScavengerHuntView() // Remplace ContentView() par ScavengerHuntView()
+            ContentView() 
         }
     }
 }
